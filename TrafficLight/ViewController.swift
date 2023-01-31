@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        trafficLightButtonTapped.layer.cornerRadius = 10
+        
         redSignalView.alpha = 0.3
         yellowSignalView.alpha = 0.3
         greenSignalView.alpha = 0.3
